@@ -1,2 +1,1 @@
-print("Hello")
-print("World")
+from telebot import *
