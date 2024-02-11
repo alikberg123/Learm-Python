@@ -1,10 +1,3 @@
-import time
-
-a = 0
-player = True
-while player:
-    time.sleep(2)
-    a += 1
-    if a >= 5:
-        player = False
-    print(a)
+from getpass import getpass
+a = getpass("Введите")
+print(a)
