@@ -1,15 +1,6 @@
-from config import web_site
-import requests
+import random
 
-web_site
+a = 1, 2, 3, 4, 5, 6, 7, 8, 9
 
-res = requests.get(web_site)
-
-print(res.status_code)
-print(res.url)
-if res.status_code == 200:
-    print("Подкдючон успешно к", res.url)
-elif "ERROR":
-    print("ОШИПКА")
-else:
-    print("ERROR")
+res = random.randint(a)
+print(res)
